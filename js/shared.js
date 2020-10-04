@@ -1,6 +1,6 @@
-var APP_ID = '1028645180580861'; //Facebook APP ID
+var APP_ID = '725078941425948'; //Facebook APP ID
 var LIMIT = 100; //Number of records to bring back at any time - MAX 100
-var BASEURL = 'https://www.sorendam.com/tableau/facebook/'; //base url of virtual directory
+var BASEURL = 'https://alexhcreates.github.io/tableau-web-data-connector-for-facebook/'; //base url of virtual directory
 
 /**
  * 1. login with Facebook
@@ -12,6 +12,7 @@ window.fbAsyncInit = function() {
         status: true, // check login status
         cookie: true, // enable cookies to allow the server to access the session
         xfbml: true // parse XFBML
+        version: 'v8.0' // Added by Alex
     });
     FB.getLoginStatus(function(response) {
         var loginButton = "<img src='img/log-in-with-facebook.png' alt='log in with Facebook' style='cursor:pointer; height: 46px;'' onclick='login();' />";
