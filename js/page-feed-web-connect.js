@@ -15,8 +15,8 @@ var insightsMetrics = [
     'post_impressions_viral_unique',
     'post_clicks',
     'post_clicks_unique',
-    'post_clicks_by_type'
-    'post_clicks_by_type_unique'
+    'post_clicks_by_type',
+    'post_clicks_by_type_unique',
     'post_engaged_users',
     'post_negative_feedback',
     'post_negative_feedback_unique',
